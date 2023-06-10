@@ -1,0 +1,383 @@
+    /* File: style.css */
+
+/* Ganti font dengan font Alayya Wedding */
+body {
+  font-family: "Alayya Wedding", sans-serif;
+}
+
+/* Atur warna latar belakang dan teks navbar */
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-toggler-icon{
+  color: #000000;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+/* Atur tampilan saat navbar menu aktif */
+.navbar-nav .nav-item.active .nav-link {
+  color: #cb8ae7df;
+}
+
+/* Atur efek transparansi saat digulir */
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Atur tampilan pada saat halaman digulir */
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Ganti warna latar belakang dan transparansi saat digulir */
+body.scrolled {
+  background-color: #000000;
+}
+
+.navbar.scrolled {
+  background-color: #000000;
+  border-bottom: 1px solid #000000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Atur tampilan teks testimony */
+.testimony {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Atur tampilan hyperlink */
+a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffd700;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+a:focus {
+  outline: none;
+}
+
+.nav-link:hover{
+  color: #1c1e14;
+  
+}
+
+/* brand */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.navbar-brand {
+font-family: 'Great Vibes', cursive;
+font-size: 10rem;
+font-weight: 700;
+}
+
+/* image */
+.product-image-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.product-image {
+  width: 100vw;
+  height: auto;
+  object-fit: cover;
+  object-position: left;
+}
+
+/* caption */
+.product-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.product-caption h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.product-caption p {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.product-caption h2 {
+  font-size: 30px;
+}
+
+
+
+/* brand */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.navbar-brand {
+font-family: 'Great Vibes', cursive;
+font-size: 2rem;
+font-weight: 400;
+}
+
+/* pacakage */
+.container-package {
+  display: flex;
+  overflow-x: auto;
+}
+
+.card {
+  flex: 0 0 300px;
+  margin-right: 10px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-list {
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+
+.card-list li {
+  list-style-type: none;
+}
+
+.card-text {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/* bagian alasan  */
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.reason {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.reason h3 {
+  color: #ff6b6b;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.reason p {
+  color: #666;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) { /* Tampilan desktop */
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .col-lg-4 {
+    flex-basis: calc(33.33% - 20px);
+  }
+}
+
+@media (max-width: 767px) { /* Tampilan ponsel */
+  .row {
+    display: block;
+  }
+
+  .col-md-6 {
+    width: 100%;
+  }
+}
+
+/* card pilihan paket */
+
+.container-package {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.package-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #1c1e14;
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.package-title:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #1c1e14;
+}
+
+
+.card {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  color: #666;
+  font-size: 16px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #888;
+}
+
+/* Untuk memberikan jarak pada bagian bawah saat judul pilihan paket berada di atas */
+.container-package::before {
+  content: "";
+  display: block;
+  height: 100px;
+  margin-top: -100px;
+}
+
+/* Styling tambahan untuk gambar dalam card */
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #888;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #333;
+}
+
+/* Whatsapp Live Chat */
+
+.live-chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.live-chat a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.live-chat a:hover {
+  background-color: #128C7E;
+}
+
+.live-chat img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.live-chat span {
+  font-size: 14px;
+  font-weight: bold;
+}
